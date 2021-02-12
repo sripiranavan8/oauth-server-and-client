@@ -1,23 +1,24 @@
-package com.sripiranavan.springboot.security.model;
+package com.sripiranavan.springboot.security.web.dto;
 
-public class Foo {
-	private long id;
+public class FooDto {
+	private Long id;
 	private String name;
 
-	public Foo() {
+	public FooDto() {
 		super();
 	}
 
-	public Foo(long id, String name) {
+	public FooDto(Long id, String name) {
+		super();
 		this.id = id;
 		this.name = name;
 	}
 
-	public long getId() {
+	public Long getId() {
 		return id;
 	}
 
-	public void setId(long id) {
+	public void setId(Long id) {
 		this.id = id;
 	}
 
